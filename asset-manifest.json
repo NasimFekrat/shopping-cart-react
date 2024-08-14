@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shopping-cart-react/static/css/main.a8032367.css",
+    "main.js": "/shopping-cart-react/static/js/main.16276192.js",
+    "static/media/product8.png": "/shopping-cart-react/static/media/product8.b549c31ae6dc7207db7f.png",
+    "static/media/product7.png": "/shopping-cart-react/static/media/product7.062e66760c6402b839ad.png",
+    "static/media/product6.png": "/shopping-cart-react/static/media/product6.73cbde8ace2d45b23102.png",
+    "static/media/product5.png": "/shopping-cart-react/static/media/product5.650a5b59f0ad96feed2f.png",
+    "static/media/product2.png": "/shopping-cart-react/static/media/product2.f5608fa52c5f546b5edd.png",
+    "static/media/product4.png": "/shopping-cart-react/static/media/product4.1f488b214875947c6f74.png",
+    "static/media/product3.png": "/shopping-cart-react/static/media/product3.143c1b10525ed342e7e4.png",
+    "static/media/product1.png": "/shopping-cart-react/static/media/product1.fef406cf8fd9f3961a08.png",
+    "static/media/product9.png": "/shopping-cart-react/static/media/product9.85bacf3e69c484c55c12.png",
+    "index.html": "/shopping-cart-react/index.html",
+    "main.a8032367.css.map": "/shopping-cart-react/static/css/main.a8032367.css.map",
+    "main.16276192.js.map": "/shopping-cart-react/static/js/main.16276192.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8032367.css",
+    "static/js/main.16276192.js"
+  ]
+}
