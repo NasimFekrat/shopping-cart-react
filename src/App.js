@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <Navbar />
           <Routes>
             <Route path="/" element={<Shop />} />
