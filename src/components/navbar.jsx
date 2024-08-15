@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useContext } from "react";
 import { ShoppingCart, Storefront } from "phosphor-react";
 
 const Navbar = () => {
