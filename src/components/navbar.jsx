@@ -24,12 +24,16 @@ const Navbar = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse mx-4" id="navbarText">
-        <a className="navbar-brand" href="/" style={{ color: "white" }}>
+        <a
+          className="navbar-brand"
+          href="/shopping-cart-react/"
+          style={{ color: "white" }}
+        >
           <Storefront size={32} />
         </a>
         <ul className="navbar-nav me-auto mt-2 mt-lg-0">
           <li className="nav-item active">
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="/shopping-cart-react/">
               Shop
             </a>
           </li>
@@ -37,7 +41,7 @@ const Navbar = () => {
         <span className="navbar-text" style={{ color: "white" }}>
           <a
             className="nav-link position-relative"
-            href="/#/cart"
+            href="/shopping-cart-react/#/cart"
             style={{ display: "flex", alignItems: "center" }}
           >
             <ShoppingCart size={32} />
