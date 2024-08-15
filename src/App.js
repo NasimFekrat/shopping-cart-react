@@ -14,8 +14,8 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/shopping-cart-react/" element={<Shop />} />
-            <Route path="/shopping-cart-react/#/cart" element={<Cart />} />
+            <Route path="/" element={<Shop />} />
+            <Route path="/#/cart" element={<Cart />} />
           </Routes>
           <Footer />
         </Router>

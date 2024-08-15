@@ -34,7 +34,7 @@ const Cart = () => {
             <button
               className="btn btn-dark rounded-5 w-auto me-3"
               onClick={() => {
-                navigate("/shopping-cart-react/");
+                navigate("/");
               }}
             >
               Continue Shopping
@@ -51,7 +51,7 @@ const Cart = () => {
             <button
               className="btn btn-dark rounded-5 w-auto"
               onClick={() => {
-                navigate("/shopping-cart-react/");
+                navigate("/");
               }}
             >
               Continue Shopping
