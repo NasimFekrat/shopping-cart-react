@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart-react/static/css/main.a8032367.css",
-    "main.js": "/shopping-cart-react/static/js/main.0354203f.js",
+    "main.js": "/shopping-cart-react/static/js/main.86af587d.js",
     "static/media/product8.png": "/shopping-cart-react/static/media/product8.b549c31ae6dc7207db7f.png",
     "static/media/product7.png": "/shopping-cart-react/static/media/product7.062e66760c6402b839ad.png",
     "static/media/product6.png": "/shopping-cart-react/static/media/product6.73cbde8ace2d45b23102.png",
@@ -13,10 +13,10 @@
     "static/media/product9.png": "/shopping-cart-react/static/media/product9.85bacf3e69c484c55c12.png",
     "index.html": "/shopping-cart-react/index.html",
     "main.a8032367.css.map": "/shopping-cart-react/static/css/main.a8032367.css.map",
-    "main.0354203f.js.map": "/shopping-cart-react/static/js/main.0354203f.js.map"
+    "main.86af587d.js.map": "/shopping-cart-react/static/js/main.86af587d.js.map"
   },
   "entrypoints": [
     "static/css/main.a8032367.css",
-    "static/js/main.0354203f.js"
+    "static/js/main.86af587d.js"
   ]
 }
