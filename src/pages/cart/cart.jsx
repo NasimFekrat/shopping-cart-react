@@ -32,14 +32,14 @@ const Cart = () => {
           </div>
           <div className="row justify-content-center">
             <button
-              className="btn btn-dark w-auto me-3"
+              className="btn btn-dark rounded-5 w-auto me-3"
               onClick={() => {
                 navigate("/");
               }}
             >
               Continue Shopping
             </button>
-            <button className="btn btn-dark w-auto">Checkout</button>
+            <button className="btn btn-dark rounded-5 w-auto">Checkout</button>
           </div>
         </>
       ) : (
@@ -49,7 +49,7 @@ const Cart = () => {
           </div>
           <div className="row justify-content-center mt-3">
             <button
-              className="btn btn-dark w-auto"
+              className="btn btn-dark rounded-5 w-auto"
               onClick={() => {
                 navigate("/");
               }}

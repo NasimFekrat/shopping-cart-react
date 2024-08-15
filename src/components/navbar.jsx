@@ -1,7 +1,15 @@
 import React, { useContext } from "react";
 import { ShoppingCart, Storefront } from "phosphor-react";
+import { ShopContext } from "../context/shop-context";
 
 const Navbar = () => {
+  const { cartItems } = useContext(ShopContext);
+
+  // Calculate the number of items in the cart
+  const cartItemsCount = Object.keys(cartItems)
+    .filter((key) => !isNaN(key) && cartItems[key] > 0) // Filter out non-numeric keys and only consider positive quantities
+    .reduce((total, key) => total + cartItems[key], 0);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <button
@@ -26,9 +34,18 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <span className="navbar-text" href="/cart" style={{ color: "white" }}>
-          <a className="nav-link" href="/cart">
+        <span className="navbar-text" style={{ color: "white" }}>
+          <a
+            className="nav-link position-relative"
+            href="/cart"
+            style={{ display: "flex", alignItems: "center" }}
+          >
             <ShoppingCart size={32} />
+            {cartItemsCount > 0 && (
+              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">
+                {cartItemsCount}
+              </span>
+            )}
           </a>
         </span>
       </div>

@@ -21,14 +21,12 @@ const Product = (props) => {
       </div>
       <div className="row justify-content-center">
         <button
-          className="btn btn-outline-dark w-auto position-relative"
+          className="btn btn-outline-dark rounded-5 w-auto"
           onClick={() => addToCart(id)}
         >
           Add To Cart{" "}
           {cartItemAmount > 0 && (
-            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-              {cartItemAmount}
-            </span>
+            <span className="badge rounded-pill bg-dark">{cartItemAmount}</span>
           )}
         </button>
       </div>
