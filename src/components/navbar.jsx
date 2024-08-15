@@ -37,7 +37,7 @@ const Navbar = () => {
         <span className="navbar-text" style={{ color: "white" }}>
           <a
             className="nav-link position-relative"
-            href="/cart"
+            href="/#/cart"
             style={{ display: "flex", alignItems: "center" }}
           >
             <ShoppingCart size={32} />
